@@ -20,3 +20,7 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+#cd Store/appstore
+#docker build -t appstoreimage .
+#docker run -d -p 8000:8000 appstoreimage
